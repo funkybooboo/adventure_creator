@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="game_hub" />
+    <orderEntry type="module" module-name="simple_reminders" />
+    <orderEntry type="module" module-name="vidly" />
   </component>
 </module>

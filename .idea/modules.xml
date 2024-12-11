@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/adventure_creator.iml" filepath="$PROJECT_DIR$/.idea/adventure_creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../game_hub/.idea/game_hub.iml" filepath="$PROJECT_DIR$/../game_hub/.idea/game_hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../simple_reminders/.idea/simple_reminders.iml" filepath="$PROJECT_DIR$/../simple_reminders/.idea/simple_reminders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vidly/.idea/vidly.iml" filepath="$PROJECT_DIR$/../vidly/.idea/vidly.iml" />
     </modules>
   </component>
 </project>

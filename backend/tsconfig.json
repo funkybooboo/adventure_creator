@@ -1,14 +1,23 @@
 {
-  "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "rootDir": "./src"
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "target": "ES6",                      // Set target to ES6 (or ES2020)
+        "module": "commonjs",                  // CommonJS modules for Node.js
+        "esModuleInterop": true,               // Allow imports like ES6 in TypeScript
+        "skipLibCheck": true,                  // Skip library checks (useful for type definitions)
+        "strict": true,                        // Enable strict type-checking options
+        "outDir": "./dist",                    // Output directory for compiled JS files
+        "rootDir": "./src",                    // Input directory for TypeScript source files
+        "resolveJsonModule": true,             // Allow importing JSON files as modules
+        "isolatedModules": true,               // For better error checking in isolated mode
+        "moduleResolution": "node",            // Node-style module resolution
+        "allowJs": true,                       // Allow JS files for mixed JS/TS projects
+        "noImplicitAny": true                  // No `any` type unless explicitly defined
+    },
+    "include": [
+        "src/**/*.ts",                         // Include all TS files in the source directory
+        "tests/**/*.ts"                        // Include TS test files
+    ],
+    "exclude": [
+        "node_modules"                         // Exclude node_modules from being compiled
+    ]
 }
