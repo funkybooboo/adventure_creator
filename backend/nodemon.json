@@ -1,6 +1,5 @@
 {
-    "exec": "ts-node -r tsconfig-paths/register src/index.ts",
     "watch": ["src"],
     "ext": "ts,tsx",
-    "ignore": ["node_modules", "dist", "build", "src/**/*.test.ts"]
+    "ignore": ["node_modules"]
 }

@@ -1,15 +1,16 @@
 {
-    "name": "backend",
+    "name": "adventure-creator-backend",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "main.js",
     "type": "module",
     "scripts": {
         "build": "tsc",
-        "start": "node dist/index.js",
-        "dev": "nodemon src/index.ts",
+        "start": "node ./dist/main.js",
+        "clean": "rm -rf ./dist ./coverage ./log",
+        "dev": "nodemon src/main.ts",
         "test": "jest",
-        "lint": "npx eslint .",
-        "lint:fix": "npx eslint . --fix",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
         "format": "prettier --write ."
     },
     "keywords": [],
@@ -17,6 +18,7 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
+        "dotenv": "^16.4.7",
         "express": "^4.21.2"
     },
     "devDependencies": {

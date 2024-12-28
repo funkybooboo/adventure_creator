@@ -9,7 +9,7 @@ const config: Config = {
         '^.+\\.ts$': 'ts-jest',
     },
     coverageDirectory: 'coverage', // Output directory for coverage reports
-    collectCoverage: true,         // Enable coverage collection
+    collectCoverage: true, // Enable coverage collection
     coverageReporters: ['text', 'lcov', 'json'], // Different formats for coverage reports
 };
 

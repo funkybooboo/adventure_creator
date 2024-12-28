@@ -1,23 +1,24 @@
 {
     "compilerOptions": {
-        "target": "ES6",                      // Set target to ES6 (or ES2020)
-        "module": "commonjs",                  // CommonJS modules for Node.js
-        "esModuleInterop": true,               // Allow imports like ES6 in TypeScript
-        "skipLibCheck": true,                  // Skip library checks (useful for type definitions)
-        "strict": true,                        // Enable strict type-checking options
-        "outDir": "./dist",                    // Output directory for compiled JS files
-        "rootDir": "./src",                    // Input directory for TypeScript source files
-        "resolveJsonModule": true,             // Allow importing JSON files as modules
-        "isolatedModules": true,               // For better error checking in isolated mode
-        "moduleResolution": "node",            // Node-style module resolution
-        "allowJs": true,                       // Allow JS files for mixed JS/TS projects
-        "noImplicitAny": true                  // No `any` type unless explicitly defined
+        "target": "ES2021",              // Target modern JavaScript (ES2021).
+        "module": "ESNext",              // Use ESNext module system for ES modules.
+        "esModuleInterop": true,         // Enable interoperability between CommonJS and ES modules.
+        "skipLibCheck": true,            // Skip type definition file checks.
+        "strict": true,                  // Enable all strict type-checking options.
+        "outDir": "./dist",              // Directory to output compiled JavaScript files.
+        "rootDir": "./src",              // Directory containing the TypeScript source files.
+        "resolveJsonModule": true,       // Allow importing JSON files.
+        "isolatedModules": true,         // Ensure each file can be transpiled independently.
+        "moduleResolution": "node",      // Use Node.js module resolution strategy.
+        "allowJs": true,                 // Allow JavaScript files in the project.
+        "noImplicitAny": true            // Raise an error on variables with `any` type.
     },
     "include": [
-        "src/**/*.ts",                         // Include all TS files in the source directory
-        "tests/**/*.ts"                        // Include TS test files
+        "src/**/*.ts",                   // Include all TypeScript files in the `src` folder.
+        "tests/**/*.ts"                  // Include test TypeScript files.
     ],
     "exclude": [
-        "node_modules"                         // Exclude node_modules from being compiled
+        "node_modules",                  // Exclude `node_modules` from compilation.
+        "dist"                           // Exclude the output folder.
     ]
 }
