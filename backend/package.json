@@ -7,7 +7,7 @@
         "build": "tsc",
         "start": "node ./dist/main.js",
         "clean": "rm -rf ./dist ./coverage ./log",
-        "dev": "nodemon src/main.ts",
+        "dev": "nodemon ./src/main.ts",
         "test": "jest",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
