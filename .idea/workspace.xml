@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc69b5e-4595-4ae9-bdb1-c46a7457a925" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/adventure_creator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adventure_creator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/logger.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +95,7 @@
       <workItem from="1733863112854" duration="652000" />
       <workItem from="1733881949643" duration="4685000" />
       <workItem from="1734480949439" duration="1612000" />
-      <workItem from="1735348215721" duration="2785000" />
+      <workItem from="1735348215721" duration="6469000" />
     </task>
     <servers />
   </component>
