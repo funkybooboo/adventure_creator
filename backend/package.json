@@ -1,31 +1,35 @@
 {
     "name": "adventure-creator-backend",
     "version": "1.0.0",
-    "main": "main.js",
+    "main": "app.js",
     "type": "module",
     "scripts": {
         "build": "tsc",
-        "start": "node ./dist/main.js",
-        "clean": "rm -rf ./dist ./coverage ./log",
-        "dev": "nodemon ./src/main.ts",
+        "start": "node ./dist/src/app.js",
+        "clean": "rm -rf ./dist ./coverage ./logs",
+        "dev": "nodemon ./src/app.ts",
         "test": "jest",
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
+        "lint:fix": "eslint --fix .",
         "format": "prettier --write .",
         "format:check": "prettier --check ."
     },
     "keywords": [],
-    "author": "",
+    "author": "Nate Stott",
     "license": "ISC",
     "description": "",
     "dependencies": {
+        "cors": "^2.8.5",
         "dotenv": "^16.4.7",
         "express": "^4.21.2",
+        "express-rate-limit": "^7.5.0",
         "helmet": "^8.0.0",
-        "winston": "^3.17.0"
+        "winston": "^3.17.0",
+        "winston-daily-rotate-file": "^5.0.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.16.0",
+        "@types/cors": "^2.8.17",
         "@types/express": "^5.0.0",
         "@types/jest": "^29.5.14",
         "@types/node": "^22.10.2",

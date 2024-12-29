@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc69b5e-4595-4ae9-bdb1-c46a7457a925" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/logger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/app.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/main.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +55,18 @@
     "NIXITCH_NIX_PROFILES": "/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/nate /home/nate/.local/state/nix/profile /nix/profile /home/nate/.nix-profile",
     "NIXITCH_NIX_REMOTE": "",
     "NIXITCH_NIX_USER_PROFILE_DIR": "/nix/var/nix/profiles/per-user/nate",
+    "Node.js.app.ts.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/nate/Projects/adventure_creator",
+    "last_opened_file_path": "/home/nate/.local/share/fnm/node-versions/v21.7.3/installation/bin/node",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/nate/.local/share/fnm/node-versions/v21.7.3/installation/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ImportCost",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "/home/nate/Projects/game_hub/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,11 +84,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src" />
+      <recent name="$PROJECT_DIR$/backend/dist/src" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/backend/tests" />
+      <recent name="$PROJECT_DIR$/backend/src/utils" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
       </set>
     </attachedChunks>
   </component>
@@ -95,11 +112,21 @@
       <workItem from="1733863112854" duration="652000" />
       <workItem from="1733881949643" duration="4685000" />
       <workItem from="1734480949439" duration="1612000" />
-      <workItem from="1735348215721" duration="6469000" />
+      <workItem from="1735348215721" duration="6640000" />
+      <workItem from="1735406718014" duration="225000" />
+      <workItem from="1735407093506" duration="90000" />
+      <workItem from="1735408279039" duration="1078000" />
+      <workItem from="1735409777715" duration="118000" />
+      <workItem from="1735409953857" duration="8927000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/backend/tests/app.test.js" />
+      </list>
+    </option>
   </component>
 </project>
