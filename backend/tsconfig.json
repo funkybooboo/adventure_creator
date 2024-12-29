@@ -14,7 +14,7 @@
         "allowSyntheticDefaultImports": true,
         "outDir": "./dist",
         "rootDir": "./",
-        "baseUrl": ".",              // Base directory for resolving modules
+        "baseUrl": "./",
     },
     "include": ["src/**/*.ts", "tests/**/*.ts"],
     "exclude": ["node_modules", "dist", "coverage", "config", "bruno", "logs"]
