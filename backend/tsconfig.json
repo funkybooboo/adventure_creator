@@ -3,6 +3,7 @@
         "target": "ESNext",
         "module": "ESNext",
         "esModuleInterop": true,
+        "sourceMap": true,
         "skipLibCheck": true,
         "strict": true,
         "resolveJsonModule": true,
