@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
-import express, { NextFunction, Request, Response } from 'express';
-import logger from './logger';
-import middleware from './middleware';
-import routes from './routes';
+import express, { Request, Response, NextFunction } from 'express';
+import logger from './logger.js';
+import middleware from './middleware.js';
+import routes from './routes.js';
 
 // Load environment variables
 dotenv.config({ path: './config/.env' });
@@ -20,7 +20,7 @@ app.use((_req: Request, res: Response) => {
     res.status(404).send({ message: 'Not Found' });
 });
 
-// General error handler
+// General error handler with types
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
     logger.error(err.stack);
@@ -62,4 +62,5 @@ process.on('SIGTERM', () => {
     });
 });
 
-export default app;
+// Export the server instance for testing and graceful shutdown
+export { app, server };
