@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+import UserProfile from './components/UserProfile';  // Import the UserProfile component
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <div className="min-h-screen bg-base-200">
+            <div className="container mx-auto p-6">
+                <h1 className="text-4xl font-bold text-center text-primary">DaisyUI & Radix UI</h1>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+                {/* DaisyUI Button */}
+                <button className="btn btn-primary mt-6">DaisyUI Button</button>
+
+                {/* Radix UI Dropdown */}
+                <DropdownMenu.Root>
+                    <DropdownMenu.Trigger asChild>
+                        <button className="btn btn-secondary mt-6">Radix UI Dropdown</button>
+                    </DropdownMenu.Trigger>
+                    <DropdownMenu.Content className="p-2 bg-white border rounded shadow-lg">
+                        <DropdownMenu.Item className="p-2 hover:bg-gray-200">Item 1</DropdownMenu.Item>
+                        <DropdownMenu.Item className="p-2 hover:bg-gray-200">Item 2</DropdownMenu.Item>
+                    </DropdownMenu.Content>
+                </DropdownMenu.Root>
+
+                {/* UserProfile Component */}
+                <div className="mt-8">
+                    <UserProfile />  {/* Render the UserProfile component here */}
+                </div>
+            </div>
+        </div>
+    );
 }
 
-export default App
+export default App;
