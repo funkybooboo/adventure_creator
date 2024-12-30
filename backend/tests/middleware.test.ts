@@ -21,14 +21,14 @@ describe('Middleware Tests', () => {
         });
     });
 
-    afterAll(() => {
-        // Clean up server after tests
-        server.close();
-    });
-
     it('should return 200 and "Middleware Test" message', async () => {
         const response = await request(server).get('/test');
         expect(response.status).toBe(200);
         expect(response.text).toBe('Middleware Test');
+    });
+
+    afterAll(() => {
+        // Clean up server after tests
+        server.close();
     });
 });

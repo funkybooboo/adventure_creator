@@ -2,11 +2,6 @@ import request from 'supertest';
 import { app, server } from '../src/app';
 
 describe('Express App', () => {
-    afterAll(() => {
-        // Close the server after tests
-        server.close();
-    });
-
     it('should respond with 404 for undefined routes', async () => {
         const response = await request(app).get('/undefined-route');
         expect(response.status).toBe(404);
@@ -17,5 +12,9 @@ describe('Express App', () => {
         const response = await request(app).get('/');
         // You can check for specific responses if you have a route defined at '/'
         expect(response.status).toBe(200);  // Adjust the status code as needed
+    });
+
+    afterAll(() => {
+        server.close();
     });
 });

@@ -5,12 +5,7 @@ export const loadConfig = (): void => {
     dotenv.config({ path: './config/.env'});
 
     // Load the appropriate .env file based on the MODE value
-    const mode = process.env.MODE; // Default to 'dev' if MODE is not set
-
-    if (!mode) {
-        logger.error('Please fill out .env file');
-        process.exit(1);
-    }
+    const mode = process.env.MODE || 'dev'; // Default to 'dev' if MODE is not set
 
     // Construct the path for the config file
     const envFile = `.env.${mode}`;
