@@ -1,13 +1,14 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express, { Request, Response, NextFunction, Application } from 'express';
 import { loadConfig } from './config.js';
 import logger from './logger.js';
 import middleware from './middleware.js';
 import routes from './routes.js';
+import http from 'http';
 
 // Load environment variables
 loadConfig();
 
-const app = express();
+const app: Application = express();
 
 // Use the middleware before the route handlers
 app.use(middleware);
@@ -40,8 +41,8 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
-const server = app.listen(PORT, () => {
+const PORT: string | number = process.env.PORT || 3000;
+const server: http.Server = app.listen(PORT, () => {
     logger.info(`Server is running on http://localhost:${PORT}`);
 });
 
