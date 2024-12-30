@@ -327,6 +327,9 @@ web_modules/
 
 # dotenv environment variable files
 config/.env
+config/.env.dev
+config/.env.test
+config/.env.prod
 
 .env
 .env.development.local
