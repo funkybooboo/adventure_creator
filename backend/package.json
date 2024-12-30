@@ -9,6 +9,8 @@
         "clean": "rm -rf ./dist ./coverage ./logs",
         "dev": "nodemon ./src/app.ts",
         "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watch --watchAll",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "format": "prettier --write .",

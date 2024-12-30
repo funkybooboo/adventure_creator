@@ -1,11 +1,11 @@
-import dotenv from 'dotenv';
 import express, { Request, Response, NextFunction } from 'express';
+import { loadConfig } from './config.js';
 import logger from './logger.js';
 import middleware from './middleware.js';
 import routes from './routes.js';
 
 // Load environment variables
-dotenv.config({ path: './config/.env' });
+loadConfig();
 
 const app = express();
 
@@ -46,21 +46,16 @@ const server = app.listen(PORT, () => {
 });
 
 // Graceful shutdown on SIGINT or SIGTERM
-process.on('SIGINT', () => {
-    logger.info('Received SIGINT. Shutting down...');
+const gracefulShutdown = (signal: string) => {
+    logger.info(`Received ${signal}. Shutting down...`);
     server.close(() => {
         logger.info('Server closed gracefully');
         process.exit(0);
     });
-});
+};
 
-process.on('SIGTERM', () => {
-    logger.info('Received SIGTERM. Shutting down...');
-    server.close(() => {
-        logger.info('Server closed gracefully');
-        process.exit(0);
-    });
-});
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
 
 // Export the server instance for testing and graceful shutdown
 export { app, server };
