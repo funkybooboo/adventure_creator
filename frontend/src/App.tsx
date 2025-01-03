@@ -23,7 +23,7 @@ function App() {
 
                 {/* UserProfile Component */}
                 <div className="mt-8">
-                    <UserProfile />  {/* Render the UserProfile component here */}
+                    <UserProfile />
                 </div>
             </div>
         </div>
