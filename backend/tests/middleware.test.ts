@@ -1,8 +1,8 @@
 import request from 'supertest';
 import express from 'express';
 import http from 'http';
-import { AddressInfo } from 'net';  // Correctly import AddressInfo from 'net'
-import middleware from '../src/middleware';  // Adjust path as necessary
+import { AddressInfo } from 'net'; // Correctly import AddressInfo from 'net'
+import middleware from '../src/middleware'; // Adjust path as necessary
 
 describe('Middleware Tests', () => {
     let server: http.Server;
@@ -16,7 +16,7 @@ describe('Middleware Tests', () => {
     beforeAll(() => {
         // Start the server on a random available port
         server = app.listen(0, () => {
-            const port = (server.address() as AddressInfo).port;  // Cast the address to AddressInfo
+            const port = (server.address() as AddressInfo).port; // Cast the address to AddressInfo
             console.log(`Test server running on port ${port}`);
         });
     });

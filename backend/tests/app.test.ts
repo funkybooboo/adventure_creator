@@ -11,7 +11,7 @@ describe('Express App', () => {
     it('should start the server and respond to GET requests', async () => {
         const response = await request(app).get('/');
         // You can check for specific responses if you have a route defined at '/'
-        expect(response.status).toBe(200);  // Adjust the status code as needed
+        expect(response.status).toBe(200); // Adjust the status code as needed
     });
 
     afterAll(() => {

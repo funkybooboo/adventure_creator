@@ -9,7 +9,7 @@ routes.get('/', (_req: Request, res: Response) => {
 
 // Health check route for monitoring
 routes.get('/health', (_req: Request, res: Response) => {
-    res.status(200).send({ status: 'ok' });  // Simple health check response
+    res.status(200).send({ status: 'ok' }); // Simple health check response
 });
 
 export default routes;
