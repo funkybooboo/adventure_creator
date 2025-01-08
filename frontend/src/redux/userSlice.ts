@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 // Define the state structure
 interface UserState {
-    user: { id: number; name: string } | null;  // Adjust based on your user model
+    user: { id: number; name: string } | null; // Adjust based on your user model
 }
 
 const initialState: UserState = {
