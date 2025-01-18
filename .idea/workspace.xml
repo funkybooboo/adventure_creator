@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc69b5e-4595-4ae9-bdb1-c46a7457a925" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/app.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/main.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +26,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pzaZm6WVOF5PWKJ6RNldvuqXRH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +45,8 @@
     "NIXITCH_NIX_PROFILES": "/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/nate /home/nate/.local/state/nix/profile /nix/profile /home/nate/.nix-profile",
     "NIXITCH_NIX_REMOTE": "",
     "NIXITCH_NIX_USER_PROFILE_DIR": "/nix/var/nix/profiles/per-user/nate",
-    "Node.js.app.ts.executor": "Debug",
+    "Node.js.Dev.executor": "Run",
+    "Node.js.app.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
