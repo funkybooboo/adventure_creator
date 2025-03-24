@@ -23,3 +23,7 @@ Adventure Creator lets you design interactive stories where readers make choices
 - Unlimited Creativity: Tell any story, from fantasy to mystery.
 - Replayable: Different choices lead to different endings.
 - Community: Share and discover adventures created by others.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
