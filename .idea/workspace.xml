@@ -5,7 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc69b5e-4595-4ae9-bdb1-c46a7457a925" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bruno/bruno.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bruno/create user.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bruno/health.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/.env.dev.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/.env.prod.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/.env.test.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/eslint.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/app.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/middleware.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/routes.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.storybook/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.storybook/preview.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/adventure_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/UserProfile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/userSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/Button.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/Configure.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/Header.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/Page.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/accessibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/accessibility.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/addon-library.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/assets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/avif-test-image.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/context.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/discord.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/docs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/figma-plugin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/styling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/testing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/theming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/tutorials.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/stories/assets/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tests/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +103,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pzaZm6WVOF5PWKJ6RNldvuqXRH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -49,16 +126,17 @@
     "Node.js.app.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "deno.use.library": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/nate/.local/share/fnm/node-versions/v21.7.3/installation/bin/node",
+    "last_opened_file_path": "/home/nate/projects/adventure_creator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/nate/.local/share/fnm/node-versions/v21.7.3/installation/bin/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/home/nate/Projects/game_hub/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/nate/projects/adventure_creator/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +164,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -109,6 +187,7 @@
       <workItem from="1735408279039" duration="1078000" />
       <workItem from="1735409777715" duration="118000" />
       <workItem from="1735409953857" duration="8927000" />
+      <workItem from="1750620157564" duration="719000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,30 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend/src:/app/src
+      - ./backend/import_map.json:/app/import_map.json
+      - ./backend/deno.json:/app/deno.json
+    ports:
+      - "8000:8000"
+    command:
+      - deno
+      - run
+      - --allow-net
+      - --allow-read
+      - --import-map=import_map.json
+      - --watch
+      - src/mod.ts
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
